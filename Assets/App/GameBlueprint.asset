@@ -12,3 +12,1253 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eee116e99fea4160842b05a44f42bfe6, type: 3}
   m_Name: GameBlueprint
   m_EditorClassIdentifier: 
+  root:
+    categories:
+    - name: Tennis
+      rules: 'Tennis is a racket sport played between two players (singles) or two
+        teams of two players each (doubles). The objective is to score points by
+        hitting the ball in such a way that the opponent cannot return it correctly.
+        Here are the basic rules:
+
+
+        1. Court: Tennis is played on a rectangular
+        court with a net stretched across the middle. The court is divided into two
+        halves by the net.
+
+
+        2. Scoring: Points are scored as follows: -
+        Love (0 points) - 15 points - 30 points - 40 points - Game (winning four
+        points)
+
+
+        3. Serving: The match begins with a serve, where one player
+        throws the ball into the air and hits it over the net into the opponent''s
+        service box. The server gets two chances (first and second serves) to get
+        the ball into the service box.
+
+
+        4. Rally: After the serve, players
+        hit the ball back and forth over the net until one player fails to return
+        the ball within the court boundaries or commits a fault.
+
+
+        5. Faults:
+        Faults include not getting the serve into the correct service box, hitting
+        the net with the serve, or hitting the ball out of bounds during a rally.
+
+
+        6.
+        Scoring System: Games are won by winning at least four points and at least
+        two points more than the opponent. Matches are won by winning a specified
+        number of sets (usually best of three sets for women and best of five sets
+        for men in major tournaments).
+
+
+        7. Tiebreak: If a set is tied at
+        six games each, a tiebreak game is played to determine the winner of the
+        set. The first player/team to reach at least seven points with a margin of
+        two points wins the tiebreak.
+
+
+        8. Doubles: In doubles matches, teams
+        of two players each play against each other. Players take turns serving and
+        receiving within their team.
+
+
+        9. Grand Slam Tournaments: Tennis
+        is played in major tournaments known as Grand Slam events, including the
+        Australian Open, French Open, Wimbledon, and US Open. These tournaments have
+        specific rules and regulations.
+
+
+        10. Code of Conduct: Players must
+        adhere to a code of conduct, which includes rules on sportsmanship, behavior,
+        and attire.
+
+
+        These rules govern the sport of tennis, which combines
+        skill, strategy, and athleticism.'
+      levels:
+      - question: What is the minimum number of points needed to win a game?
+        options:
+        - 3
+        - 4
+        - 5
+        - 6
+        answer: 4
+      - question: What is the term used for a score of zero in tennis?
+        options:
+        - Zero
+        - Love
+        - Nil
+        - Duck
+        answer: Love
+      - question: How many Grand Slam tournaments are there in a calendar year?
+        options:
+        - 2
+        - 3
+        - 4
+        - 5
+        answer: 4
+      - question: Which surface is the French Open played on?
+        options:
+        - Grass
+        - Clay
+        - Hard
+        - Carpet
+        answer: Clay
+      - question: Who has won the most Grand Slam titles in men's singles?
+        options:
+        - Roger Federer
+        - Rafael Nadal
+        - Novak Djokovic
+        - Pete Sampras
+        answer: Rafael Nadal
+      - question: What is the width of a tennis singles court?
+        options:
+        - 23 feet
+        - 27 feet
+        - 30 feet
+        - 36 feet
+        answer: 27 feet
+      - question: In which city is the Australian Open held?
+        options:
+        - Sydney
+        - Melbourne
+        - Brisbane
+        - Perth
+        answer: Melbourne
+      - question: What is the maximum number of sets in a men's Grand Slam match?
+        options:
+        - 3
+        - 4
+        - 5
+        - 6
+        answer: 5
+      - question: What is the term for a serve that the opponent cannot touch?
+        options:
+        - Ace
+        - Fault
+        - Double Fault
+        - Deuce
+        answer: Ace
+      - question: Who was the first player to win 23 Grand Slam titles in the Open
+          Era?
+        options:
+        - Serena Williams
+        - Steffi Graf
+        - Margaret Court
+        - Martina Navratilova
+        answer: Serena Williams
+    - name: Rugby
+      rules: 'Rugby is a team sport played between two teams of fifteen players each.
+        The objective is to score points by carrying, passing, kicking, or grounding
+        the ball in the opponent''s in-goal area (try zone). Here are the basic rules:
+
+
+        1.
+        Field: The game is played on a rectangular field called a pitch, with goal
+        posts at each end. The field is divided into zones such as the 22-meter line,
+        halfway line, and try line.
+
+
+        2. Players: Each team has fifteen players
+        divided into forwards and backs. Forwards typically play a more physical
+        role, while backs focus on speed and handling.
+
+
+        3. Scoring: Points
+        are scored in several ways:  - Try: 5 points for grounding the ball in the
+        opponent''s in-goal area. - Conversion: 2 additional points by kicking the
+        ball through the goal posts after a try. - Penalty Kick: 3 points by kicking
+        the ball through the goal posts after a penalty infringement by the opposing
+        team. - Drop Goal: 3 points by kicking the ball through the goal posts during
+        open play.
+
+
+        4. Passing: Players can pass the ball backward to teammates.
+        The ball can be kicked forward or carried forward, but not passed forward.
+
+
+        5.
+        Tackling: Players can be tackled by the opposing team to stop their progress.
+        Tackles must be made below the shoulders and without dangerous or illegal
+        contact.
+
+
+        6. Rucks and Mauls: When a player is tackled and brought
+        to the ground, a ruck forms over the ball. Players from both teams compete
+        for possession. A maul occurs when players from both teams bind together
+        around a ball carrier who is on their feet.
+
+
+        7. Scrums: Scrums are
+        used to restart play after certain rule infringements or when the ball goes
+        out of bounds. Players bind together and push against the opposing team to
+        contest possession of the ball.
+
+
+        8. Lineouts: Lineouts occur when
+        the ball goes out of bounds. Players from both teams line up and lift teammates
+        to contest possession of the thrown-in ball.
+
+
+        9. Fouls and Penalties:
+        Penalties are awarded for rule infringements such as high tackles, offsides,
+        or dangerous play. Penalties may result in free kicks, penalty kicks, or
+        yellow/red cards.
+
+
+        10. Game Duration: A standard rugby match consists
+        of two halves of 40 minutes each, with a halftime break. Additional time
+        may be played for stoppages.
+
+
+        Rugby is played in various formats
+        including rugby union, rugby league, and sevens, each with variations in
+        rules and strategies. These rules govern the physical and strategic aspects
+        of the sport, emphasizing teamwork, skill, and sportsmanship.'
+      levels:
+      - question: How many players are there on a rugby union team?
+        options:
+        - 11
+        - 13
+        - 15
+        - 18
+        answer: 15
+      - question: What is the shape of a rugby ball?
+        options:
+        - Round
+        - Oval
+        - Square
+        - Rectangular
+        answer: Oval
+      - question: Which country has won the most Rugby World Cups?
+        options:
+        - Australia
+        - England
+        - New Zealand
+        - South Africa
+        answer: New Zealand
+      - question: How many points is a try worth in rugby union?
+        options:
+        - 3
+        - 4
+        - 5
+        - 6
+        answer: 5
+      - question: What is the duration of a standard rugby union match?
+        options:
+        - 60 minutes
+        - 70 minutes
+        - 80 minutes
+        - 90 minutes
+        answer: 80 minutes
+      - question: In rugby, what is the name of the set-piece where players from
+          both teams bind together and push against each other?
+        options:
+        - Ruck
+        - Maul
+        - Scrum
+        - Lineout
+        answer: Scrum
+      - question: Which position is responsible for throwing the ball into a lineout?
+        options:
+        - Fly-half
+        - Scrum-half
+        - Hooker
+        - Full-back
+        answer: Hooker
+      - question: Which country hosts the Six Nations Championship along with England,
+          Ireland, France, Wales, and Italy?
+        options:
+        - Scotland
+        - New Zealand
+        - Australia
+        - South Africa
+        answer: Scotland
+      - question: What is the term used when a player drops the ball forward in rugby?
+        options:
+        - Knock-on
+        - Forward pass
+        - Offside
+        - Penalty
+        answer: Knock-on
+      - question: Which rugby position typically wears the number 10 jersey?
+        options:
+        - Fly-half
+        - Scrum-half
+        - Hooker
+        - Full-back
+        answer: Fly-half
+    - name: Basketball
+      rules: 'Basketball is a team sport played between two teams of five players
+        each. The objective is to score points by shooting a ball through the opponent''s
+        hoop. Here are the basic rules:
+
+
+        1. Court: The game is played on
+        a rectangular court with a hoop (basket) at each end. The court is divided
+        into two halves by a midcourt line.
+
+
+        2. Players: Each team has five
+        players on the court at a time. Players are categorized into positions such
+        as guards, forwards, and centers.
+
+
+        3. Scoring: Points are scored
+        by shooting the ball through the opponent''s hoop. A field goal inside the
+        three-point line counts as two points, while a shot beyond the three-point
+        line counts as three points. Free throws, awarded for certain fouls, count
+        as one point each.
+
+
+        4. Dribbling: Players move the ball by bouncing
+        it on the floor, known as dribbling. They must continue to dribble while
+        moving, except when shooting, passing, or stopping.
+
+
+        5. Passing:
+        Players can pass the ball to teammates using their hands. Passing allows
+        teams to move the ball quickly and create scoring opportunities.
+
+
+        6.
+        Fouls: Fouls are called for illegal physical contact such as pushing, holding,
+        or blocking. Players committing fouls may receive personal fouls, team fouls,
+        or technical fouls, depending on the severity of the offense.
+
+
+        7.
+        Violations: Violations include traveling (moving without dribbling the ball),
+        double dribbling (dribbling with both hands simultaneously or stopping and
+        starting again), and goaltending (interfering with the ball as it descends
+        towards the hoop).
+
+
+        8. Game Duration: A standard basketball game
+        consists of four quarters, each lasting 10 or 12 minutes depending on the
+        level of play (professional, college, or youth).
+
+
+        9. Overtime: If
+        the score is tied at the end of regulation time, overtime periods may be
+        played to determine the winner.
+
+
+        10. Competitions: Basketball is
+        played in various competitions, including leagues (NBA, EuroLeague), international
+        tournaments (FIBA World Cup, Olympics), and college basketball (NCAA).
+
+
+        These
+        rules govern the fast-paced and dynamic sport of basketball, emphasizing
+        skill, teamwork, and strategy.'
+      levels:
+      - question: How many players are on the court for each team in a standard basketball
+          game?
+        options:
+        - 4
+        - 5
+        - 6
+        - 7
+        answer: 5
+      - question: How many points is a shot made from behind the three-point line
+          worth?
+        options:
+        - 1
+        - 2
+        - 3
+        - 4
+        answer: 3
+      - question: Which player is known as 'His Airness'?
+        options:
+        - Kobe Bryant
+        - LeBron James
+        - Michael Jordan
+        - Shaquille O'Neal
+        answer: Michael Jordan
+      - question: What is the regulation height of a basketball hoop?
+        options:
+        - 9 feet
+        - 9.5 feet
+        - 10 feet
+        - 10.5 feet
+        answer: 10 feet
+      - question: Which team has won the most NBA championships?
+        options:
+        - Chicago Bulls
+        - Golden State Warriors
+        - Los Angeles Lakers
+        - Boston Celtics
+        answer: Boston Celtics
+      - question: What is the term for a pass that leads directly to a basket?
+        options:
+        - Assist
+        - Rebound
+        - Steal
+        - Block
+        answer: Assist
+      - question: Who was the first player to score 100 points in a single NBA game?
+        options:
+        - Kareem Abdul-Jabbar
+        - Wilt Chamberlain
+        - Michael Jordan
+        - Kobe Bryant
+        answer: Wilt Chamberlain
+      - question: How many quarters are there in a standard basketball game?
+        options:
+        - 2
+        - 3
+        - 4
+        - 5
+        answer: 4
+      - question: What is the duration of each quarter in an NBA game?
+        options:
+        - 10 minutes
+        - 12 minutes
+        - 15 minutes
+        - 20 minutes
+        answer: 12 minutes
+      - question: What is the name of the violation when a player takes too many
+          steps without dribbling the ball?
+        options:
+        - Double Dribble
+        - Traveling
+        - Carrying
+        - Backcourt Violation
+        answer: Traveling
+    - name: Bowling
+      rules: 'Bowling is a target sport and recreational activity in which a player
+        rolls a bowling ball toward pins or another target. The objective is to knock
+        down pins in as few rolls as possible. Here are the basic rules:
+
+
+        1.
+        Alley: Bowling is played in a bowling alley, which consists of a long and
+        narrow lane with a foul line at the beginning.
+
+
+        2. Pins: The game
+        involves knocking down pins arranged in a triangular formation at the end
+        of the lane. There are typically ten pins in standard bowling.
+
+
+        3.
+        Scoring: Players score points by knocking down pins with their rolls. Each
+        pin knocked down equals one point.
+
+
+        4. Frames: A game of bowling
+        consists of ten frames, with each frame allowing up to two rolls per player.
+
+
+        5.
+        Strikes and Spares: A strike occurs when a player knocks down all ten pins
+        with the first roll of a frame. A spare occurs when all ten pins are knocked
+        down within two rolls of a frame.
+
+
+        6. Open Frame: An open frame
+        occurs when a player does not knock down all ten pins in two rolls of a frame.
+
+
+        7.
+        Foul: A foul occurs if a player crosses the foul line at the beginning of
+        the lane during a roll, resulting in a score of zero for that roll.
+
+
+        8.
+        Split: A split occurs when a player leaves a gap between two or more standing
+        pins that is difficult to knock down with one roll.
+
+
+        9. Equipment:
+        Players use specially designed bowling balls to knock down pins, and bowling
+        shoes to improve traction on the approach to the lane.
+
+
+        10. Competitions:
+        Bowling is played in various formats and competitions, including leagues,
+        tournaments, and recreational play.
+
+
+        These rules govern the sport
+        of bowling, which combines skill, strategy, and precision aiming to achieve
+        the highest score.'
+      levels:
+      - question: How many pins are there in a standard game of bowling?
+        options:
+        - 8
+        - 9
+        - 10
+        - 12
+        answer: 10
+      - question: What is the highest possible score in a single game of bowling?
+        options:
+        - 200
+        - 250
+        - 300
+        - 350
+        answer: 300
+      - question: What term is used when all ten pins are knocked down with the first
+          ball?
+        options:
+        - Spare
+        - Strike
+        - Split
+        - Gutter
+        answer: Strike
+      - question: What do you call it when a player knocks down all remaining pins
+          with the second ball?
+        options:
+        - Spare
+        - Strike
+        - Split
+        - Turkey
+        answer: Spare
+      - question: How many frames are in a standard game of bowling?
+        options:
+        - 8
+        - 9
+        - 10
+        - 12
+        answer: 10
+      - question: What is it called when a player gets three strikes in a row?
+        options:
+        - Double
+        - Turkey
+        - Ham Bone
+        - Four-bagger
+        answer: Turkey
+      - question: In bowling, what is the area called where players take their steps
+          before releasing the ball?
+        options:
+        - Approach
+        - Lane
+        - Gutter
+        - Deck
+        answer: Approach
+      - question: Which type of ball is typically used by professional bowlers?
+        options:
+        - Plastic
+        - Rubber
+        - Urethane
+        - Reactive Resin
+        answer: Reactive Resin
+      - question: What is the name of the equipment used to pick up and return the
+          ball after it has been bowled?
+        options:
+        - Ball Picker
+        - Ball Return
+        - Ball Retriever
+        - Ball Loader
+        answer: Ball Return
+      - question: What is a 'gutter ball' in bowling?
+        options:
+        - A ball that knocks down no pins
+        - A ball that lands in the gutter
+        - A ball that splits the pins
+        - A ball that scores a strike
+        answer: A ball that lands in the gutter
+    - name: Football
+      rules: 'Football, also known as soccer, is a team sport played between two
+        teams of eleven players each. The objective is to score goals by kicking
+        the ball into the opposing team''s goal. Here are the basic rules:
+
+
+        1.
+        Field: The game is played on a rectangular field with goals at either end.
+        The field is divided into halves by a halfway line, and each team defends
+        one goal.
+
+
+        2. Duration: A standard football match consists of two
+        halves of 45 minutes each, with a 15-minute halftime break.
+
+
+        3.
+        Players: Each team has eleven players, including one goalkeeper. Players
+        are divided into positions such as defenders, midfielders, and forwards.
+
+
+        4.
+        Scoring: Goals are scored when the entire ball crosses the goal line between
+        the goalposts and under the crossbar. The team with the most goals at the
+        end of the match wins.
+
+
+        5. Passing: Players pass the ball to teammates
+        using their feet, head, or body. They can also dribble (carry) the ball while
+        moving towards the opposing team''s goal.
+
+
+        6. Fouls: Fouls are called
+        for actions such as pushing, tripping, holding, or using excessive force
+        against an opponent. A player committing a foul may receive a warning (yellow
+        card), a dismissal (red card), or a penalty kick against their team.
+
+
+        7.
+        Offsides: Offside is called if an attacking player is nearer to the opponent''s
+        goal line than both the ball and the second-last opponent at the moment the
+        ball is played to them.
+
+
+        8. Throw-ins, Corner Kicks, and Goal Kicks:
+        The game restarts with throw-ins (when the ball goes out of bounds along
+        the sidelines), corner kicks (when the ball goes out of bounds across the
+        goal line by a defending player), and goal kicks (when the ball goes out
+        of bounds across the goal line by an attacking player).
+
+
+        9. Extra
+        Time and Penalties: In knockout matches, if the score is tied at the end
+        of regulation time, extra time may be played. If still tied, the match may
+        be decided by penalty kicks.
+
+
+        10. Competitions: Football is played
+        in various competitions, including national leagues, international tournaments
+        (such as the FIFA World Cup and UEFA Champions League), and friendly matches.
+
+
+        These
+        rules govern the world''s most popular sport, emphasizing skill, teamwork,
+        and fair play.'
+      levels:
+      - question: How many players are there on a football team?
+        options:
+        - 9
+        - 10
+        - 11
+        - 12
+        answer: 11
+      - question: How long is a standard football match?
+        options:
+        - 60 minutes
+        - 75 minutes
+        - 90 minutes
+        - 120 minutes
+        answer: 90 minutes
+      - question: What is the name of the position responsible for preventing the
+          opposing team from scoring goals?
+        options:
+        - Forward
+        - Midfielder
+        - Defender
+        - Goalkeeper
+        answer: Goalkeeper
+      - question: Which country has won the most FIFA World Cups?
+        options:
+        - Germany
+        - Italy
+        - Argentina
+        - Brazil
+        answer: Brazil
+      - question: What is the maximum number of substitutions allowed in a standard
+          football match?
+        options:
+        - 2
+        - 3
+        - 4
+        - 5
+        answer: 3
+      - question: Which player is known as 'The King of Football'?
+        options:
+        - Lionel Messi
+        - Diego Maradona
+        - "Pel\xE9"
+        - Cristiano Ronaldo
+        answer: "Pel\xE9"
+      - question: What is the term for a player scoring three goals in a single match?
+        options:
+        - Double
+        - Hat-trick
+        - Triple
+        - Quatrick
+        answer: Hat-trick
+      - question: In which country is the Premier League played?
+        options:
+        - Spain
+        - Germany
+        - England
+        - Italy
+        answer: England
+      - question: What is the name of the international tournament that takes place
+          every four years and determines the world champion?
+        options:
+        - Copa America
+        - UEFA Champions League
+        - FIFA World Cup
+        - AFC Asian Cup
+        answer: FIFA World Cup
+      - question: Which player has won the most Ballon d'Or awards?
+        options:
+        - Cristiano Ronaldo
+        - Lionel Messi
+        - Michel Platini
+        - Johan Cruyff
+        answer: Lionel Messi
+    - name: Handball
+      rules: 'Handball is a team sport played between two teams of seven players
+        each. The objective is to score goals by throwing a ball into the opposing
+        team''s goal. Here are the basic rules:
+
+
+        1. Court: The game is played
+        on a rectangular court with goals at either end. The court is divided into
+        two halves by a center line.
+
+
+        2. Duration: A standard handball match
+        consists of two halves, each lasting 30 minutes (in professional games) or
+        two halves of 25 minutes (in amateur and youth games).
+
+
+        3. Players:
+        Each team consists of seven players, including one goalkeeper and six outfield
+        players.
+
+
+        4. Scoring: Goals are scored when the ball crosses the
+        goal line into the goal. The team with the most goals at the end of the match
+        wins.
+
+
+        5. Passing: Players pass the ball to teammates by throwing,
+        dribbling, or bouncing it. Contact with the ball is allowed using any part
+        of the body above the knee.
+
+
+        6. Fouls: Fouls are called for physical
+        contact, holding, pushing, tripping, or other violations of the rules. A
+        player committing a foul may receive a warning, a two-minute suspension,
+        or a disqualification depending on the severity of the offense.
+
+
+        7.
+        Throw-offs: The game starts with a throw-off from the center of the court.
+        After each goal, play resumes with a throw-off by the team that conceded
+        the goal.
+
+
+        8. Penalties: Penalties are awarded for fouls committed
+        inside the penalty area. The player takes a penalty shot against the goalkeeper
+        from a specified distance.
+
+
+        9. Substitutions: Substitutions can
+        be made at any time, with players entering and leaving the court through
+        a designated substitution area.
+
+
+        10. Handball Competitions: Handball
+        is played in various competitions, including national leagues, international
+        tournaments (such as the Olympics and World Championships), and regional
+        championships.
+
+
+        These rules govern the fast-paced and dynamic sport
+        of handball, emphasizing teamwork, skill, and strategy.'
+      levels:
+      - question: How many players are on a handball team, including the goalkeeper?
+        options:
+        - 5
+        - 6
+        - 7
+        - 8
+        answer: 7
+      - question: How long is a standard handball match?
+        options:
+        - 30 minutes
+        - 45 minutes
+        - 60 minutes
+        - 90 minutes
+        answer: 60 minutes
+      - question: What is the diameter of the goal area in handball?
+        options:
+        - 4 meters
+        - 5 meters
+        - 6 meters
+        - 7 meters
+        answer: 6 meters
+      - question: Which country has won the most men's handball World Championships?
+        options:
+        - Germany
+        - Denmark
+        - France
+        - Spain
+        answer: France
+      - question: What is the maximum number of steps a player can take without dribbling
+          the ball in handball?
+        options:
+        - 2
+        - 3
+        - 4
+        - 5
+        answer: 3
+      - question: What is the name of the line that players must stay behind when
+          taking a free throw?
+        options:
+        - Goal Line
+        - Penalty Line
+        - Free Throw Line
+        - Center Line
+        answer: Free Throw Line
+      - question: How many players are allowed on the court from each team during
+          a standard handball match?
+        options:
+        - 5
+        - 6
+        - 7
+        - 8
+        answer: 7
+      - question: What is the name of the violation when a player holds the ball
+          for more than 3 seconds without dribbling, passing, or shooting?
+        options:
+        - Double Dribble
+        - Traveling
+        - Holding
+        - Stalling
+        answer: Holding
+      - question: Which country is known for its dominant performance in women's
+          handball?
+        options:
+        - Norway
+        - Brazil
+        - South Korea
+        - Russia
+        answer: Norway
+      - question: What is the size of a standard handball goal?
+        options:
+        - 2x3 meters
+        - 3x3 meters
+        - 2x4 meters
+        - 3x4 meters
+        answer: 2x3 meters
+    - name: Golf
+      rules: 'Golf is a sport played on a course with a series of 18 holes. The objective
+        is to complete each hole in the fewest strokes possible. Here are the basic
+        rules:
+
+
+        1. Holes: A standard golf course consists of 18 holes, each
+        with a teeing ground, fairway, rough, hazards, and putting green.
+
+
+        2.
+        Strokes: Players strike a small ball with a club, aiming to advance it from
+        the teeing ground to the hole in the fewest strokes.
+
+
+        3. Par: Each
+        hole has a designated par score (number of strokes a skilled golfer is expected
+        to need to complete the hole).
+
+
+        4. Scoring: Scores are recorded
+        as the number of strokes taken to complete each hole. A lower score indicates
+        better performance.
+
+
+        5. Teeing Off: Players begin each hole by teeing
+        off from a designated area. The ball must be played from where it comes to
+        rest, except on the putting green where it is holed out.
+
+
+        6. Penalties:
+        Penalties are incurred for violations such as hitting the ball out of bounds,
+        in water hazards, or for unplayable lies. Penalty strokes are added to the
+        player''s score.
+
+
+        7. Etiquette: Golfers are expected to adhere to
+        etiquette, including maintaining pace of play, repairing divots and ball
+        marks, and respecting other players.
+
+
+        8. Golf Clubs: Players may
+        carry up to 14 clubs in their bag, each designed for different types of shots
+        such as driving, chipping, and putting.
+
+
+        9. Handicaps: Handicaps
+        allow players of different skill levels to compete fairly by adjusting their
+        scores based on previous performance.
+
+
+        10. Tournaments: Golf tournaments
+        vary in format from stroke play (total strokes over 18 holes) to match play
+        (one-on-one competition based on hole-by-hole scoring).
+
+
+        These rules
+        ensure fair play and challenge in the game of golf, which is enjoyed by millions
+        worldwide on courses of varying difficulty.'
+      levels:
+      - question: How many holes are there in a standard round of golf?
+        options:
+        - 9
+        - 12
+        - 18
+        - 21
+        answer: 18
+      - question: What is the term for a score of one under par on a hole?
+        options:
+        - Eagle
+        - Birdie
+        - Par
+        - Bogey
+        answer: Birdie
+      - question: Which major golf tournament is held annually at Augusta National
+          Golf Club?
+        options:
+        - The Open Championship
+        - The PGA Championship
+        - The U.S. Open
+        - The Masters
+        answer: The Masters
+      - question: What is the name of the professional golf tour for men?
+        options:
+        - LPGA
+        - PGA Tour
+        - Champions Tour
+        - Web.com Tour
+        answer: PGA Tour
+      - question: What is the maximum number of clubs a player can carry in their
+          bag during a round of golf?
+        options:
+        - 10
+        - 12
+        - 14
+        - 16
+        answer: 14
+      - question: Who has won the most major championships in golf?
+        options:
+        - Tiger Woods
+        - Jack Nicklaus
+        - Arnold Palmer
+        - Gary Player
+        answer: Jack Nicklaus
+      - question: What is the term for a hole-in-one on a par-4 hole?
+        options:
+        - Birdie
+        - Eagle
+        - Albatross
+        - Condor
+        answer: Albatross
+      - question: What is the name of the cup awarded to the winner of the Open Championship?
+        options:
+        - Claret Jug
+        - Wanamaker Trophy
+        - Ryder Cup
+        - FedEx Cup
+        answer: Claret Jug
+      - question: What is the term for the area of closely mown grass surrounding
+          the hole?
+        options:
+        - Fairway
+        - Rough
+        - Green
+        - Tee Box
+        answer: Green
+      - question: Which country is known as the 'Home of Golf'?
+        options:
+        - United States
+        - Scotland
+        - Ireland
+        - Australia
+        answer: Scotland
+    - name: Boxing
+      rules: 'Boxing is a combat sport where two opponents throw punches at each
+        other within a roped-off square ring. The objective is to score points by
+        landing legal punches on the opponent''s body or head. Here are the basic
+        rules:
+
+
+        1. Rounds: Boxing matches are divided into rounds, typically
+        lasting three minutes each, with breaks in between. Championship bouts can
+        have up to 12 rounds.
+
+
+        2. Weight Classes: Boxers compete in different
+        weight divisions to ensure fair competition based on weight and size.
+
+
+        3.
+        Scoring: Points are awarded based on the effectiveness and accuracy of punches
+        landed on the opponent. Judges determine scores based on criteria such as
+        clean punching, effective aggression, defense, and ring generalship.
+
+
+        4.
+        Knockouts and Knockdowns: A boxer is knocked down if any part of their body
+        other than their feet touches the canvas. They have a count of ten seconds
+        to get back up. A knockout occurs if a boxer cannot get up before the referee
+        counts to ten.
+
+
+        5. Fouls: Illegal actions include hitting below
+        the belt, headbutting, biting, holding, or hitting an opponent who is down.
+        Penalties may result in warnings, point deductions, or disqualification.
+
+
+        6.
+        Decisions: Boxing matches can be won by knockout (KO), technical knockout
+        (TKO), decision (judges'' scoring), or disqualification (DQ).
+
+
+        7.
+        Attire and Equipment: Boxers wear gloves and mouthguards for protection.
+        The gloves weigh between 8 to 10 ounces for professional bouts and are padded
+        to reduce the risk of injury.
+
+
+        8. Referees and Officials: Referees
+        oversee the match to enforce rules, ensure fair play, and protect the safety
+        of the boxers.
+
+
+        9. Promotions and Titles: Boxing events are often
+        promoted by organizations that manage championships and rankings. Titles
+        are awarded to champions in each weight division based on performance and
+        victories.
+
+
+        10. Strategy: Boxers use various techniques such as
+        jabs, hooks, uppercuts, and footwork to outmaneuver opponents and score points
+        while avoiding punches.
+
+
+        These rules govern professional and amateur
+        boxing matches worldwide, ensuring competitive and safe bouts.'
+      levels:
+      - question: In boxing, how many rounds are typically fought in professional
+          championship bouts?
+        options:
+        - 10
+        - 12
+        - 15
+        - 20
+        answer: 12
+      - question: Who is the only boxer to have won world championships in eight
+          different weight divisions?
+        options:
+        - Floyd Mayweather Jr.
+        - Manny Pacquiao
+        - Oscar De La Hoya
+        - Miguel Cotto
+        answer: Manny Pacquiao
+      - question: What is the maximum weight for the heavyweight division in professional
+          boxing?
+        options:
+        - 200 lbs
+        - 220 lbs
+        - 240 lbs
+        - Unlimited
+        answer: Unlimited
+      - question: Which boxer was known as 'The Greatest' and 'The Louisville Lip'?
+        options:
+        - Mike Tyson
+        - Muhammad Ali
+        - Sugar Ray Leonard
+        - Joe Frazier
+        answer: Muhammad Ali
+      - question: What is the term for a boxing match that ends without a winner
+          due to an equal scorecard?
+        options:
+        - Tie
+        - Draw
+        - No Contest
+        - Split Decision
+        answer: Draw
+      - question: Which boxing style emphasizes agility, speed, and defensive techniques?
+        options:
+        - Slugger
+        - Swarmer
+        - Out-Boxer
+        - Pressure Fighter
+        answer: Out-Boxer
+      - question: What is the term for a punch delivered with the boxer's leading
+          hand?
+        options:
+        - Jab
+        - Cross
+        - Hook
+        - Uppercut
+        answer: Jab
+      - question: Who was the first boxer to defeat Muhammad Ali in a professional
+          bout?
+        options:
+        - Joe Frazier
+        - Sonny Liston
+        - George Foreman
+        - Ken Norton
+        answer: Joe Frazier
+      - question: Which boxer famously bit off part of Evander Holyfield's ear during
+          a match?
+        options:
+        - Mike Tyson
+        - Lennox Lewis
+        - George Foreman
+        - Floyd Mayweather Jr.
+        answer: Mike Tyson
+      - question: What is the name of the world-renowned boxing promoter known for
+          his flamboyant personality?
+        options:
+        - Bob Arum
+        - Don King
+        - Eddie Hearn
+        - Oscar De La Hoya
+        answer: Don King
+    - name: Cricket
+      rules: 'Cricket is a bat-and-ball game played between two teams of eleven players
+        each on a field. The game is divided into innings, with each team taking
+        turns to bat and field. Here are the basic rules:
+
+
+        1. Objective:
+        The batting team aims to score runs by hitting the ball and running between
+        two sets of wooden stumps (wickets) at either end of the pitch. The fielding
+        team tries to dismiss the batsmen and restrict the scoring.
+
+
+        2.
+        Pitch: The pitch is a rectangular area with a length of 22 yards (20.12 meters)
+        and a width of 10 feet (3.05 meters), with a wicket at each end.
+
+
+        3.
+        Innings: Each team gets one innings to bat. An innings is complete when ten
+        of the eleven batsmen are out (dismissed), or a set number of overs (a set
+        of six consecutive balls bowled by a bowler) are bowled.
+
+
+        4. Batting:
+        Batsmen score runs by hitting the ball and running between the wickets. They
+        can also score runs by hitting boundaries (four runs if the ball reaches
+        the boundary rope, six runs if it clears the boundary on the full). Batsmen
+        can be dismissed in various ways, such as being bowled (the ball hits the
+        stumps and dislodges the bails), caught (a fielder catches the ball hit by
+        the batsman before it touches the ground), run out (fielders hit the wicket
+        with the ball while the batsman is running between the wickets), etc.
+
+
+        5.
+        Bowling: The bowling team (fielding team) consists of bowlers who bowl the
+        ball towards the batsmen. Bowlers aim to dismiss batsmen and restrict their
+        scoring by bowling accurately and tactically.
+
+
+        6. Fielding: Fielders
+        try to stop the ball and dismiss batsmen. They are strategically placed around
+        the field to catch the ball, stop it from reaching the boundary, and return
+        it to the wicket-keeper or bowler.
+
+
+        7. Scoring: The batting team''s
+        score is represented by the number of runs scored by the batsmen. The fielding
+        team''s objective is to limit the batting team''s score and dismiss all batsmen
+        as quickly and efficiently as possible.
+
+
+        8. Extras: Runs awarded
+        to the batting team without the batsmen hitting the ball, such as wides (balls
+        bowled outside the batsman''s reach), no-balls (illegal deliveries), byes
+        (runs scored when the ball passes the batsman and the wicket-keeper without
+        being hit), and leg-byes (runs scored after the ball touches the batsman''s
+        body).
+
+
+        9. Result: The team with the highest score at the end of
+        their innings wins the match. If both teams score the same number of runs,
+        the match is a tie or a draw, depending on the format of the game.
+
+
+        10.
+        Formats: Cricket is played in different formats, including Test cricket (played
+        over five days), One Day Internationals (ODIs, limited to 50 overs per innings),
+        and Twenty20 (T20, limited to 20 overs per innings), each with variations
+        in rules and strategies.
+
+
+        These are the basic rules of cricket,
+        which combine elements of strategy, skill, and teamwork, making it a widely
+        followed and beloved sport globally.'
+      levels:
+      - question: How many players are on a cricket team?
+        options:
+        - 9
+        - 10
+        - 11
+        - 12
+        answer: 11
+      - question: What is the length of a cricket pitch?
+        options:
+        - 18 yards
+        - 20 yards
+        - 22 yards
+        - 24 yards
+        answer: 22 yards
+      - question: Which country has won the most Cricket World Cups?
+        options:
+        - India
+        - Australia
+        - England
+        - West Indies
+        answer: Australia
+      - question: What is the term for a dismissal in cricket where a fielder catches
+          the ball before it touches the ground?
+        options:
+        - Run out
+        - Stumped
+        - Caught
+        - Bowled
+        answer: Caught
+      - question: What is the name of the tournament contested between England and
+          Australia in cricket?
+        options:
+        - Ashes
+        - World Cup
+        - Champions Trophy
+        - Super Series
+        answer: Ashes
+      - question: What is the maximum number of overs per bowler in a One Day International
+          (ODI) cricket match?
+        options:
+        - 10
+        - 15
+        - 20
+        - 25
+        answer: 10
+      - question: Which player has scored the highest individual score in Test cricket?
+        options:
+        - Sachin Tendulkar
+        - Brian Lara
+        - Ricky Ponting
+        - Brian Lara
+        answer: Brian Lara
+      - question: What does LBW stand for in cricket?
+        options:
+        - Leg Before Wicket
+        - Leg Beyond Wicket
+        - Long Before Wicket
+        - Lateral Before Wicket
+        answer: Leg Before Wicket
+      - question: Who is the fastest bowler in the history of cricket, known for
+          his deliveries exceeding 100 mph?
+        options:
+        - Shoaib Akhtar
+        - Brett Lee
+        - Mitchell Starc
+        - Jofra Archer
+        answer: Shoaib Akhtar
+      - question: Which cricket ground is known as 'The Home of Cricket'?
+        options:
+        - MCG (Melbourne Cricket Ground)
+        - Eden Gardens
+        - Lord's Cricket Ground
+        - The Oval
+        answer: Lord's Cricket Ground
