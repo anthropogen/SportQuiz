@@ -6,8 +6,8 @@ public class MenuScreen : Screen
   [SerializeField] private MenuSystem menuSystem;
   [SerializeField] private SettingsPopup settingsPopup;
   [SerializeField] private MainMenuPopup mainPopup;
-
-  protected override void Subscribe()
+  
+  public void Init()
   {
     settingsPopup.Init(SetMain);
     mainPopup.Init(menuSystem, this);

@@ -13,6 +13,7 @@ namespace Bootstrapper.Data
   public class Category
   {
     public string name;
+    public Sprite icon;
     public string rules;
     public List<Level> levels;
   }

@@ -5,15 +5,19 @@ namespace Bootstrapper.StateMachine
 {
   public abstract class GameSystem : MonoBehaviour
   {
-    protected GameData GameData;
-    protected PlayerData PlayerData;
-    protected GameBlueprint Blueprint;
+    protected GameData gameData;
+    protected PlayerData playerData;
+    protected GameBlueprint blueprint;
+
+    public GameBlueprint GetBlueprint => blueprint;
+    public PlayerData GetPlayerDate => playerData;
+    public GameData GetGameData => gameData;
 
     public void InjectData(PlayerData playerData, GameData gameData, GameBlueprint blueprint)
     {
-      PlayerData = playerData;
-      GameData = gameData;
-      Blueprint = blueprint;
+      this.playerData = playerData;
+      this.gameData = gameData;
+      this.blueprint = blueprint;
     }
 
     public void ToTutorial()

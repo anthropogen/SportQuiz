@@ -31,9 +31,9 @@ public class InitSystem : GameSystem
       return;
     }
 
-    if (!string.IsNullOrEmpty(PlayerData.URL))
+    if (!string.IsNullOrEmpty(playerData.URL))
     {
-      OpenWebView(PlayerData.URL);
+      OpenWebView(playerData.URL);
       return;
     }
 
@@ -86,7 +86,7 @@ public class InitSystem : GameSystem
 
     var url = GetUrlFromRemoteConfigs();
     Debug.Log(url);
-    PlayerData.URL = url;
+    playerData.URL = url;
     HyperBootstrapper.Instance.Save();
     OpenWebView(url);
   }

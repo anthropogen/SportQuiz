@@ -15,6 +15,7 @@ MonoBehaviour:
   root:
     categories:
     - name: Tennis
+      icon: {fileID: 21300000, guid: 98c6b57f80914474a92a3060069a46ab, type: 3}
       rules: 'Tennis is a racket sport played between two players (singles) or two
         teams of two players each (doubles). The objective is to score points by
         hitting the ball in such a way that the opponent cannot return it correctly.
@@ -151,6 +152,7 @@ MonoBehaviour:
         - Martina Navratilova
         answer: Serena Williams
     - name: Rugby
+      icon: {fileID: 21300000, guid: 1ef08544617ad4641b9a9d14a2643d28, type: 3}
       rules: 'Rugby is a team sport played between two teams of fifteen players each.
         The objective is to score points by carrying, passing, kicking, or grounding
         the ball in the opponent''s in-goal area (try zone). Here are the basic rules:
@@ -292,6 +294,7 @@ MonoBehaviour:
         - Full-back
         answer: Fly-half
     - name: Basketball
+      icon: {fileID: 21300000, guid: 6d4d758403c14ac478520e4b79def12d, type: 3}
       rules: 'Basketball is a team sport played between two teams of five players
         each. The objective is to score points by shooting a ball through the opponent''s
         hoop. Here are the basic rules:
@@ -430,6 +433,7 @@ MonoBehaviour:
         - Backcourt Violation
         answer: Traveling
     - name: Bowling
+      icon: {fileID: 21300000, guid: 5eed8b809a996b843a698f7b90a1cd6b, type: 3}
       rules: 'Bowling is a target sport and recreational activity in which a player
         rolls a bowling ball toward pins or another target. The objective is to knock
         down pins in as few rolls as possible. Here are the basic rules:
@@ -563,6 +567,7 @@ MonoBehaviour:
         - A ball that scores a strike
         answer: A ball that lands in the gutter
     - name: Football
+      icon: {fileID: 21300000, guid: f6841d8df7f24ea4f964057de1de5d05, type: 3}
       rules: 'Football, also known as soccer, is a team sport played between two
         teams of eleven players each. The objective is to score goals by kicking
         the ball into the opposing team''s goal. Here are the basic rules:
@@ -702,6 +707,7 @@ MonoBehaviour:
         - Johan Cruyff
         answer: Lionel Messi
     - name: Handball
+      icon: {fileID: 21300000, guid: 3e083caf17394f34eba1378b74ad2e81, type: 3}
       rules: 'Handball is a team sport played between two teams of seven players
         each. The objective is to score goals by throwing a ball into the opposing
         team''s goal. Here are the basic rules:
@@ -839,6 +845,7 @@ MonoBehaviour:
         - 3x4 meters
         answer: 2x3 meters
     - name: Golf
+      icon: {fileID: 21300000, guid: 78dce8ea16bec2d47b05896763c299fd, type: 3}
       rules: 'Golf is a sport played on a course with a series of 18 holes. The objective
         is to complete each hole in the fewest strokes possible. Here are the basic
         rules:
@@ -972,6 +979,7 @@ MonoBehaviour:
         - Australia
         answer: Scotland
     - name: Boxing
+      icon: {fileID: 21300000, guid: 87a95aef81c96c14e95da38bb0ef2f9b, type: 3}
       rules: 'Boxing is a combat sport where two opponents throw punches at each
         other within a roped-off square ring. The objective is to score points by
         landing legal punches on the opponent''s body or head. Here are the basic
@@ -1114,6 +1122,7 @@ MonoBehaviour:
         - Oscar De La Hoya
         answer: Don King
     - name: Cricket
+      icon: {fileID: 21300000, guid: caf786cd5cf395c448614c552f370d30, type: 3}
       rules: 'Cricket is a bat-and-ball game played between two teams of eleven players
         each on a field. The game is divided into innings, with each team taking
         turns to bat and field. Here are the basic rules:
