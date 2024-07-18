@@ -11,6 +11,11 @@ namespace Bootstrapper.Data
     public string URL;
 
     public List<CategoryDto> categories = new();
+    public string name = "";
+    public int successQuizSeries;
+    public int totalQuiz;
+    public int passedQuiz;
+    public int failedQuiz;
 
     public bool TryGetCategory(string name, out CategoryDto dto)
     {

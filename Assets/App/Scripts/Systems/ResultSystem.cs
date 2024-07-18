@@ -10,6 +10,19 @@ public class ResultSystem : GameSystem
   internal override void EnterState()
   {
     resultScreen.Init(gameData.Category, gameData.RightAnswers, Helper.GetQuestionsNumFor(gameData.Difficult));
+
+    playerData.totalQuiz++;
+    if (gameData.RightAnswers >= Helper.GetQuestionsNumFor(gameData.Difficult))
+    {
+      playerData.successQuizSeries++;
+      playerData.passedQuiz++;
+    }
+    else
+    {
+      playerData.successQuizSeries = 0;
+      playerData.failedQuiz++;
+    }
+
     if (playerData.TryGetCategory(gameData.Category.name, out var dto))
     {
       dto.rightAnswers = dto.rightAnswers >= gameData.RightAnswers ? dto.rightAnswers : gameData.RightAnswers;
