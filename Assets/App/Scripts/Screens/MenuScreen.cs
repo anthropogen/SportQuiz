@@ -12,7 +12,7 @@ public class MenuScreen : Screen
 
   public void Init()
   {
-    settingsPopup.Init(SetMain);
+    settingsPopup.Init(SetMain, menuSystem);
     statisticsPopup.Init(SetMain);
     mainPopup.Init(menuSystem, this);
   }
