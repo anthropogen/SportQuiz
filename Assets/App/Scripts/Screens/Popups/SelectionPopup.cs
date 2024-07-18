@@ -55,8 +55,8 @@ public class SelectionPopup : MonoBehaviour
 
   private void OnPanelSelected(RectTransform rect, int index)
   {
-    selected = index;
-    var item = selectionItems[index];
+    selected = index % selectionItems.Count;
+    var item = selectionItems[selected];
     if (menu.GetPlayerData.TryGetCategory(item.name, out var dto))
     {
       mediumBtn.SetInteractable(dto.rightAnswers >= Helper.MediumQuestionsNum);
