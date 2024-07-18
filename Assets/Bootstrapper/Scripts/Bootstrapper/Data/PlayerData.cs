@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Bootstrapper.Data
 {
@@ -7,5 +9,23 @@ namespace Bootstrapper.Data
   {
     /// Player data for saving
     public string URL;
+
+    public List<CategoryDto> categories = new();
+
+    public bool TryGetCategory(string name, out CategoryDto dto)
+    {
+      dto = categories.FirstOrDefault(c => c.name == name);
+      return dto != null;
+    }
+  }
+
+  [System.Serializable]
+  public class CategoryDto
+  {
+    public string name;
+    public int rightAnswers;
+    public int easy;
+    public int medium;
+    public int hard;
   }
 }

@@ -2,6 +2,7 @@ namespace Bootstrapper.Data
 {
   public class GameData
   {
-    /// Game sesion data
+    public Difficult Difficult;
+    public Category Category;
   }
 }

@@ -10,7 +10,7 @@ namespace Bootstrapper.StateMachine
     protected GameBlueprint blueprint;
 
     public GameBlueprint GetBlueprint => blueprint;
-    public PlayerData GetPlayerDate => playerData;
+    public PlayerData GetPlayerData => playerData;
     public GameData GetGameData => gameData;
 
     public void InjectData(PlayerData playerData, GameData gameData, GameBlueprint blueprint)

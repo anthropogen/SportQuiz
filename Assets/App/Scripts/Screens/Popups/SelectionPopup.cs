@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using Bootstrapper.Data;
-using DG.Tweening;
 using LightScrollSnap;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,10 +11,14 @@ public class SelectionPopup : MonoBehaviour
   [SerializeField] private CategorySelectionItem selectionItemTemplate;
   [SerializeField] private RectTransform content;
   [SerializeField] private ScrollSnap scrollSnap;
+  [SerializeField] private MenuSystem menu;
+
+  [SerializeField] private SelectDifficultBtn easyBtn;
+  [SerializeField] private SelectDifficultBtn mediumBtn;
+  [SerializeField] private SelectDifficultBtn hardBtn;
+
   private List<CategorySelectionItem> selectionItems;
-  private readonly float scaleAnimDuration = 0.1f;
-  private readonly Vector3 maxSizeItem = new Vector3(1.2f, 1.2f, 1f);
-  private readonly Vector3 minSizeItem = new Vector3(1f, 1f, 1f);
+  private int selected;
 
   public void Init(List<Category> categories, Action onBackClicked)
   {
@@ -29,29 +32,40 @@ public class SelectionPopup : MonoBehaviour
       selectionItems.Add(item);
     }
 
-    SelectItemAnim(selectionItems[0]);
+    OnPanelSelected(null, 0);
+    easyBtn.Init(OnClickEasy);
+    mediumBtn.Init(OnClickMedium);
+    hardBtn.Init(OnClickHard);
   }
 
-  private void OnPanelSelected(RectTransform arg0, int arg1)
+  private void OnClickHard()
   {
-    
+    menu.Play(selectionItems[selected].Category, Difficult.Hard);
   }
 
-  private void OnPanelCentered(int currentI, int prevI)
+  private void OnClickMedium()
   {
-    SelectItemAnim(selectionItems[currentI]);
-    UnselectItemAnim(selectionItems[prevI]);
+    menu.Play(selectionItems[selected].Category, Difficult.Medium);
   }
 
-  private void SelectItemAnim(CategorySelectionItem item)
+  private void OnClickEasy()
   {
-    item.transform.DOKill();
-    item.transform.DOScale(maxSizeItem, scaleAnimDuration).SetAutoKill();
+    menu.Play(selectionItems[selected].Category, Difficult.Easy);
   }
 
-  private void UnselectItemAnim(CategorySelectionItem item)
+  private void OnPanelSelected(RectTransform rect, int index)
   {
-    item.transform.DOKill();
-    item.transform.DOScale(minSizeItem, scaleAnimDuration).SetAutoKill();
+    selected = index;
+    var item = selectionItems[index];
+    if (menu.GetPlayerData.TryGetCategory(item.name, out var dto))
+    {
+      mediumBtn.SetInteractable(dto.rightAnswers >= Helper.MediumQuestionsNum);
+      hardBtn.SetInteractable(dto.rightAnswers >= Helper.HardQuestionsNum);
+    }
+    else
+    {
+      mediumBtn.SetInteractable(false);
+      hardBtn.SetInteractable(false);
+    }
   }
 }
