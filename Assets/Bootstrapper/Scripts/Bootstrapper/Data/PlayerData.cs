@@ -24,8 +24,5 @@ namespace Bootstrapper.Data
   {
     public string name;
     public int rightAnswers;
-    public int easy;
-    public int medium;
-    public int hard;
   }
 }
