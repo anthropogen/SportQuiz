@@ -11,10 +11,23 @@ public class SettingsPopup : MonoBehaviour
   [SerializeField] private Button privacyBtn;
   [SerializeField] private Button clearAllDataBtn;
   [SerializeField] private Button clearAllAchievementsBtn;
+  [SerializeField] private PrivacyPolicyPopup policyPopup;
 
   public void Init(Action onBackClick, MenuSystem menuSystem)
   {
     backBtn.onClick.AddListener(() => onBackClick?.Invoke());
+    privacyBtn.onClick.AddListener(() =>
+    {
+      policyPopup.gameObject.SetActive(true);
+     // gameObject.SetActive(false);
+    });
+
+    policyPopup.Init(() =>
+    {
+      policyPopup.gameObject.SetActive(false);
+     // gameObject.SetActive(true);
+    });
+
     clearAllDataBtn.onClick.AddListener(() =>
     {
       var data = menuSystem.GetPlayerData;
