@@ -15,6 +15,11 @@ public class ResultSystem : GameSystem
     if (gameData.RightAnswers >= Helper.GetQuestionsNumFor(gameData.Difficult))
     {
       playerData.successQuizSeries++;
+      if (playerData.straightQuiz == false && playerData.successQuizSeries >= 3)
+      {
+        playerData.straightQuiz = true;
+      }
+
       playerData.passedQuiz++;
     }
     else

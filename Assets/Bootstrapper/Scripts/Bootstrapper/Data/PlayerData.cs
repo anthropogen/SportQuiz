@@ -13,6 +13,7 @@ namespace Bootstrapper.Data
     public List<CategoryDto> categories = new();
     public string name = "";
     public int successQuizSeries;
+    public bool straightQuiz;
     public int totalQuiz;
     public int passedQuiz;
     public int failedQuiz;

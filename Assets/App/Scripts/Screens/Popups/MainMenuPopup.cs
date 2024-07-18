@@ -5,6 +5,8 @@ public class MainMenuPopup : MonoBehaviour
 {
   [SerializeField] private Button playBtn;
   [SerializeField] private Button settingsBtn;
+  [SerializeField] private Button statiscticsBtn;
+  [SerializeField] private Button userBtn;
   [SerializeField] private SelectionPopup selection;
 
   public void Init(MenuSystem menuSystem, MenuScreen menuScreen)
@@ -12,6 +14,8 @@ public class MainMenuPopup : MonoBehaviour
     playBtn.onClick.AddListener(OpenSelection);
     settingsBtn.onClick.AddListener(menuScreen.OpenSettings);
     selection.Init(menuSystem.GetBlueprint.root.categories, CloseSelection);
+    userBtn.onClick.AddListener(menuScreen.OpenUser);
+    statiscticsBtn.onClick.AddListener(menuScreen.OpenStatistics);
   }
 
   private void OpenSelection()
