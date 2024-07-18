@@ -14,6 +14,7 @@ public class MenuScreen : Screen
   {
     settingsPopup.Init(SetMain, menuSystem);
     statisticsPopup.Init(SetMain);
+    userPopup.Init(menuSystem, SetMain, OpenSettings);
     mainPopup.Init(menuSystem, this);
   }
 

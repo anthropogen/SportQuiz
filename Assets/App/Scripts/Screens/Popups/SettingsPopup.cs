@@ -24,6 +24,7 @@ public class SettingsPopup : MonoBehaviour
       data.failedQuiz = 0;
       data.successQuizSeries = 0;
       data.straightQuiz = false;
+      data.name = "";
       HyperBootstrapper.Instance.Save();
     });
 
