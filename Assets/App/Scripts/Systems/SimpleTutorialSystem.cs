@@ -7,6 +7,6 @@ public class SimpleTutorialSystem : GameSystem
 
   internal override void EnterState()
   {
-    tutorialScreen.Init(gameData.Category);
+    tutorialScreen.SetCategory(gameData.Category);
   }
 }

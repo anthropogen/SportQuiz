@@ -12,9 +12,8 @@ public class TutorialScreen : Screen
   [SerializeField] private TMP_Text titleTxt;
   [SerializeField] private TMP_Text rulesTxt;
   [SerializeField] private Image icon;
-
-
-  public void Init(Category category)
+  
+  public void SetCategory(Category category)
   {
     rulesTxt.text = category.rules;
     icon.sprite = category.icon;

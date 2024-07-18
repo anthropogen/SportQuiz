@@ -4,5 +4,6 @@ namespace Bootstrapper.Data
   {
     public Difficult Difficult;
     public Category Category;
+    public int RightAnswers;
   }
 }
