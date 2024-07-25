@@ -9,19 +9,20 @@ public class MenuScreen : Screen
   [SerializeField] private StatisticsPopup statisticsPopup;
   [SerializeField] private SelectionPopup selectionPopup;
   [SerializeField] private UserPopup userPopup;
+  [SerializeField] private GameModePopup gameModePopup;
 
   public void Init()
   {
-    settingsPopup.Init(SetMain, menuSystem);
-    statisticsPopup.Init(SetMain);
-    userPopup.Init(menuSystem, SetMain, OpenSettings);
+    settingsPopup.Init(OpenMain, menuSystem);
+    statisticsPopup.Init(OpenMain);
+    userPopup.Init(menuSystem, OpenMain, OpenSettings);
     mainPopup.Init(menuSystem, this);
   }
 
   public override void Open()
   {
     base.Open();
-    SetMain();
+    OpenMain();
   }
 
   public void OpenSettings()
@@ -30,15 +31,17 @@ public class MenuScreen : Screen
     settingsPopup.gameObject.SetActive(true);
     userPopup.gameObject.SetActive(false);
     statisticsPopup.gameObject.SetActive(false);
+    gameModePopup.gameObject.SetActive(false);
   }
 
-  private void SetMain()
+  public void OpenMain()
   {
     selectionPopup.gameObject.SetActive(false);
     mainPopup.gameObject.SetActive(true);
     settingsPopup.gameObject.SetActive(false);
     userPopup.gameObject.SetActive(false);
     statisticsPopup.gameObject.SetActive(false);
+    gameModePopup.gameObject.SetActive(false);
   }
 
   public void OpenStatistics()
@@ -48,6 +51,7 @@ public class MenuScreen : Screen
     userPopup.gameObject.SetActive(false);
     statisticsPopup.Open(menuSystem);
     statisticsPopup.gameObject.SetActive(true);
+    gameModePopup.gameObject.SetActive(false);
   }
 
   public void OpenUser()
@@ -56,5 +60,6 @@ public class MenuScreen : Screen
     settingsPopup.gameObject.SetActive(false);
     userPopup.gameObject.SetActive(true);
     statisticsPopup.gameObject.SetActive(false);
+    gameModePopup.gameObject.SetActive(false);
   }
 }

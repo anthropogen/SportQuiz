@@ -8,25 +8,35 @@ public class MainMenuPopup : MonoBehaviour
   [SerializeField] private Button statiscticsBtn;
   [SerializeField] private Button userBtn;
   [SerializeField] private SelectionPopup selection;
+  [SerializeField] private GameModePopup gameModePopup;
 
   public void Init(MenuSystem menuSystem, MenuScreen menuScreen)
   {
-    playBtn.onClick.AddListener(OpenSelection);
+    playBtn.onClick.AddListener(OpenGameMode);
+    gameModePopup.Init(menuScreen.OpenMain);
     settingsBtn.onClick.AddListener(menuScreen.OpenSettings);
     selection.Init(menuSystem.GetBlueprint.root.categories, CloseSelection);
     userBtn.onClick.AddListener(menuScreen.OpenUser);
     statiscticsBtn.onClick.AddListener(menuScreen.OpenStatistics);
   }
 
-  private void OpenSelection()
+  public void OpenGameMode()
   {
     gameObject.SetActive(false);
+    gameModePopup.gameObject.SetActive(true);
+  }
+
+  public void OpenSelection()
+  {
+    gameObject.SetActive(false);
+    gameModePopup.gameObject.SetActive(false);
     selection.gameObject.SetActive(true);
   }
 
   private void CloseSelection()
   {
-    gameObject.SetActive(true);
+    gameObject.SetActive(false);
+    gameModePopup.gameObject.SetActive(true);
     selection.gameObject.SetActive(false);
   }
 }

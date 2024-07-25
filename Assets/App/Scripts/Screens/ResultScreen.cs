@@ -14,12 +14,21 @@ public class ResultScreen : Screen
   [SerializeField] private TMP_Text title;
   [SerializeField] private ResultSystem resultSystem;
 
-  public void Init(Category category, int current, int max)
+  public void Init(GameMode gameMode, Category category, int current, int max)
   {
     slider.value = current / (float)max;
-    resultTxt.text = $"Right {current} out of {max}";
-    icon.sprite = category.icon;
-    title.text = $"Rules \nof the \n{category.name}";
+    if (gameMode == GameMode.Simple)
+    {
+      title.gameObject.SetActive(true);
+      resultTxt.text = $"Right {current} out of {max}";
+      icon.sprite = category.icon;
+      title.text = $"Rules nof the \n{category.name}";
+    }
+    else
+    {
+      resultTxt.text = $"Right {current} out of {max}";
+      title.gameObject.SetActive(false);
+    }
   }
 
   protected override void Subscribe()

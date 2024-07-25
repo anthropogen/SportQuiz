@@ -40,17 +40,17 @@ public class SelectionPopup : MonoBehaviour
 
   private void OnClickHard()
   {
-    menu.Play(selectionItems[selected].Category, Difficult.Hard);
+    menu.PlaySimple(selectionItems[selected].Category, Difficult.Hard);
   }
 
   private void OnClickMedium()
   {
-    menu.Play(selectionItems[selected].Category, Difficult.Medium);
+    menu.PlaySimple(selectionItems[selected].Category, Difficult.Medium);
   }
 
   private void OnClickEasy()
   {
-    menu.Play(selectionItems[selected].Category, Difficult.Easy);
+    menu.PlaySimple(selectionItems[selected].Category, Difficult.Easy);
   }
 
   private void OnPanelSelected(RectTransform rect, int index)

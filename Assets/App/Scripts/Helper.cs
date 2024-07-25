@@ -3,8 +3,8 @@
 public static class Helper
 {
   public const int EasyQuestionsNum = 5;
-  public const int MediumQuestionsNum = 5;
-  public const int HardQuestionsNum = 5;
+  public const int MediumQuestionsNum = 7;
+  public const int HardQuestionsNum = 10;
 
   public static int GetQuestionsNumFor(Difficult difficult)
   {

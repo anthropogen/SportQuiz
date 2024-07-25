@@ -17,7 +17,7 @@ public class TutorialScreen : Screen
   {
     rulesTxt.text = category.rules;
     icon.sprite = category.icon;
-    titleTxt.text = $"Rules \nof the \n{category.name}";
+    titleTxt.text = $"Rules of the \n{category.name}";
   }
 
   protected override void Subscribe()

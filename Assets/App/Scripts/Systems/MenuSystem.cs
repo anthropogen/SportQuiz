@@ -11,11 +11,18 @@ public class MenuSystem : GameSystem
     menuScreen.Init();
   }
 
-  public void Play(Category category, Difficult difficult)
+  public void PlaySimple(Category category, Difficult difficult)
   {
+    gameData.gameMode = GameMode.Simple;
     gameData.Category = category;
     gameData.Difficult = difficult;
     ToTutorial();
+  }
+
+  public void PlayEndlessGame()
+  {
+    gameData.gameMode = GameMode.Endless;
+    ToGame();
   }
 }
 
